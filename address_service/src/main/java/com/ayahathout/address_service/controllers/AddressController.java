@@ -14,9 +14,9 @@ public class AddressController {
     @Autowired
     private AddressService addressService;
 
-    @GetMapping("{id}")
-    public ResponseEntity<AddressResponseDTO> getAddress(@PathVariable Integer id) {
-        AddressResponseDTO responseDTO = addressService.findById(id);
+    @GetMapping("{employeeId}")
+    public ResponseEntity<AddressResponseDTO> getAddress(@PathVariable Integer employeeId) {
+        AddressResponseDTO responseDTO = addressService.findByEmplyeeId(employeeId);
         return ResponseEntity.status(HttpStatus.OK).body(responseDTO);
     }
 }

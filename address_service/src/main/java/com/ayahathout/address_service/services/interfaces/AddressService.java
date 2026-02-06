@@ -3,5 +3,5 @@ package com.ayahathout.address_service.services.interfaces;
 import com.ayahathout.address_service.dtos.AddressResponseDTO;
 
 public interface AddressService {
-    AddressResponseDTO findById(Integer id);
+    AddressResponseDTO findByEmplyeeId(Integer employeeId);
 }
