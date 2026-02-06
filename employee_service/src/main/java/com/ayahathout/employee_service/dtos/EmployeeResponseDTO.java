@@ -10,4 +10,5 @@ public class EmployeeResponseDTO implements Serializable {
     String firstName;
     String lastName;
     Integer age;
+    AddressResponseDTO address;
 }
