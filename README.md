@@ -56,7 +56,7 @@ The project consists of two microservices:
 ---
 
 ## 🚀 Getting Started
-**Prerequisites**
+**Prerequisites**:
 - Java 17 or higher
 
 - Maven 3.6 or higher
