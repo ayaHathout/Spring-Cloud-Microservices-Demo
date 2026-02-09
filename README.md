@@ -47,5 +47,15 @@ This project demonstrates real-world microservices patterns through practical, h
 
 ---
 
+## 🛠️ Tech Stack
+- **Languages**: Java 21
+- **Frameworks**: Spring Boot 4.x, Spring Cloud
+- **Service Discovery**: Eureka
+- **Communication**: OpenFeign, RestTemplate  
+- **Databases**: PostgreSQL, MySQL, Spring Data JPA
+- **Tools**: Maven, Lombok, ModelMapper
+
+---
+
 ## 🎯 Purpose
 This repository serves as both a learning resource and a reference implementation for Spring Cloud microservices patterns.
