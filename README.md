@@ -1,3 +1,7 @@
+![Status](https://img.shields.io/badge/Status-Active%20Learning%20Project-blue)
+![Progress](https://img.shields.io/badge/Progress-Continuous-green)
+![Learning](https://img.shields.io/badge/Learning%20Journey-In%20Progress-orange)
+
 # Spring Cloud Microservices Demo
 
 A comprehensive, step-by-step implementation of Spring Cloud microservices architecture. 
