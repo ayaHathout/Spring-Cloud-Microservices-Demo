@@ -1,4 +1,4 @@
-# Spring-Microservices-Rest-Communication
+# Spring Cloud Microservices Demo
 
 A comprehensive, step-by-step implementation of Spring Cloud microservices architecture. 
 This project demonstrates real-world microservices patterns with practical examples.
