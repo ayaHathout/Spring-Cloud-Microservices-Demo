@@ -9,7 +9,7 @@ This project demonstrates real-world microservices patterns through practical, h
 
 ---
 
-## 🎯 Project Status & Learning Journey
+## 📊 Project Status & Learning Journey
 
 ### ✅ **Mastered & Implemented**
 - **REST Communication Patterns**: RestTemplate vs OpenFeign Client
