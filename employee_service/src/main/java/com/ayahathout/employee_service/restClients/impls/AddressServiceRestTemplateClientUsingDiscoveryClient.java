@@ -20,16 +20,17 @@ public class AddressServiceRestTemplateClientUsingDiscoveryClient implements Add
     @Autowired
     private DiscoveryClient discoveryClient;
 
-    // Get the address-service Instances from Eureka server using its name
-    List<ServiceInstance> addressServiceInstanceList = discoveryClient.getInstances("address_service");
-
-    // Get the URI of the first instance for address-service
-    String addressServiceInstanceURI = addressServiceInstanceList.get(0).getUri().toString();
-
     @Override
     public AddressResponseDTO getAddress(Integer employeeId) {
+        // Get the address-service Instances from Eureka server using its name
+        List<ServiceInstance> addressServiceInstanceList = discoveryClient.getInstances("address_service");
+
+        // Get the URI of the first instance for address-service
+        String addressServiceInstanceURI = addressServiceInstanceList.get(0).getUri().toString();
         System.out.println("Address Service instance URI: " + addressServiceInstanceURI);
 
-        return restTemplate.getForObject(addressServiceInstanceURI + "{employee-id}", AddressResponseDTO.class, employeeId);
+        // Get the Context Path of the first instance for address-service
+
+        return restTemplate.getForObject(addressServiceInstanceURI + "/addresses/" + "{employee-id}", AddressResponseDTO.class, employeeId);
     }
 }
