@@ -11,10 +11,10 @@ import org.springframework.stereotype.Service;
 @Profile("open-feign")
 public class AddressServiceFeignClient implements AddressServiceClient {
     @Autowired
-    private AddressServiceFeignClientInterface addressServiceFeignClient;
+    private AddressServiceFeignClientInterface addressServiceFeignClientInterface;
 
     @Override
     public AddressResponseDTO getAddress(Integer employeeId) {
-        return addressServiceFeignClient.getAddress(employeeId).getBody();
+        return addressServiceFeignClientInterface.getAddress(employeeId).getBody();
     }
 }
