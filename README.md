@@ -23,14 +23,21 @@ This project demonstrates real-world microservices patterns through practical, h
 - Load balancing strategies
 
 ### 📚 **Learning Roadmap**
-1. ✅ Basic RESTful microservices
-2. ✅ Service-to-service communication  
-3. ✅ Centralized service discovery (Eureka)
-4. 🔄 API Gateway & Load Balancing
-5. 📋 Distributed Configuration
-6. 📋 Circuit Breaker (Resilience4j)
-7. 📋 Distributed Tracing (Spring Cloud Sleuth)
-8. 📋 Containerization (Docker & Kubernetes)
+1. ✅ RESTful Microservices
+2. ✅ Synchronous Communication (Rest Clients like Rest Template, Web Client, Open Feign)
+3. ✅ Service Discovery & Registeration (Eureka)
+4. ✅ Load Balancing (Spring Cloud Load Balancer)
+5. 🔄 Centralized Configuration (Config Server)
+6. 📋 API Gateway
+7. 📋 Rate Limiting
+8. 📋 Fault Tolerance & Resilience (Circuit Breaker)
+9. 📋 Distributed Tracing & Monitoring (Spring Cloud Sleuth, Zipkin)
+10. 📋 Centralized Logging
+11. 📋 Security Between Services (OAuth2, JWT, Keycloak)
+12. 📋 Asynchronous Communication (RabbitMQ, Kafka)
+13. 📋 Saga Pattern
+14. 📋 Containerization (Docker)
+15. 📋 Orchestration (Kubernetes)
 
 ---
 
