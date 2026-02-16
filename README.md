@@ -29,7 +29,7 @@ This project demonstrates real-world microservices patterns through practical, h
 4. 🔄 API Gateway & Load Balancing
 5. 📋 Distributed Configuration
 6. 📋 Circuit Breaker (Resilience4j)
-7. 📋 Distributed Tracing (Spring Cloud Sleuth)
+7. 📋 Distributed Tracing & Monitoring (Spring Cloud Sleuth & Zipkin)
 8. 📋 Containerization (Docker & Kubernetes)
 
 ---
