@@ -28,16 +28,15 @@ This project demonstrates real-world microservices patterns through practical, h
 3. ✅ Service Discovery & Registeration (Eureka)
 4. ✅ Load Balancing (Spring Cloud Load Balancer)
 5. 🔄 Centralized Configuration (Config Server)
-6. 🔄 API Gateway
-7. 🔄 Rate Limiting
-8. 📋 Fault Tolerance & Resilience (Circuit Breaker)
-9. 📋 Distributed Tracing & Monitoring (Spring Cloud Sleuth, Zipkin)
-10. 📋 Centralized Logging
-11. 📋 Security Between Services (OAuth2, JWT, Keycloak)
-12. 📋 Asynchronous Communication (RabbitMQ, Kafka)
-13. 📋 Saga Pattern
-14. 📋 Containerization (Docker)
-15. 📋 Orchestration (Kubernetes)
+6. 🔄 API Gateway & Rate Limiting
+7. 📋 Fault Tolerance & Resilience4j (Retry, Circuit Breaker, Timeout, Fallback, Bulkhead)
+8. 📋 Distributed Tracing & Monitoring (Spring Cloud Sleuth, Zipkin)
+9. 📋 Centralized Logging
+10. 📋 Security Between Services (OAuth2, JWT, Keycloak)
+11. 📋 Asynchronous Communication (RabbitMQ, Kafka)
+12. 📋 Saga Pattern
+13. 📋 Containerization (Docker)
+14. 📋 Orchestration (Kubernetes)
 
 ---
 
