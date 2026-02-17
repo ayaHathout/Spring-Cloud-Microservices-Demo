@@ -29,7 +29,7 @@ This project demonstrates real-world microservices patterns through practical, h
 4. ✅ Load Balancing (Spring Cloud Load Balancer)
 5. 🔄 Centralized Configuration (Config Server)
 6. 🔄 API Gateway
-7. 📋 Rate Limiting
+7. 🔄 Rate Limiting
 8. 📋 Fault Tolerance & Resilience (Circuit Breaker)
 9. 📋 Distributed Tracing & Monitoring (Spring Cloud Sleuth, Zipkin)
 10. 📋 Centralized Logging
