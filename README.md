@@ -12,15 +12,18 @@ This project demonstrates real-world microservices patterns through practical, h
 ## 📊 Project Status & Learning Journey
 
 ### ✅ **Mastered & Implemented**
-- **REST Communication Patterns**: RestTemplate vs OpenFeign Client
-- **Service Discovery & Registration**: Eureka Server & Clients  
-- **Multi-Database Architecture**: PostgreSQL & MySQL integration
-- **Spring Boot Microservices**: Best practices and patterns
+- **RESTful Microservices Design**: Built independent REST-based services with clear separation of responsibilities
+- **Synchronous Communication**: Implemented and compared RestTemplate, WebClient, and OpenFeign
+- **Service Discovery & Registration**: Eureka Server & dynamic client registration
+- **Client-Side Load Balancing**: Spring Cloud LoadBalancer with multiple Address Service instances
+- **Centralized Configuration**: Spring Cloud Config Server with Git-based externalized configuration
+- **Multi-Database Architecture**: MySQL (Employee Service) & PostgreSQL (Address Service) integration
+- **Configuration Lifecycle Understanding**: Explored config loading order, refresh behavior, and service bootstrap process
 
 ### 🔄 **Currently Implementing**
 - API Gateway patterns with Spring Cloud Gateway
-- Distributed configuration management
-- Load balancing strategies
+- Rate Limiting strategies
+- Advanced routing & request filtering
 
 ### 📚 **Learning Roadmap**
 1. ✅ RESTful Microservices
