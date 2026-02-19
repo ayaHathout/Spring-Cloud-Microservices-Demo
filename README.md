@@ -13,12 +13,15 @@ This project demonstrates real-world microservices patterns through practical, h
 
 ### ✅ **Mastered & Implemented**
 - **RESTful Microservices Design**: Built independent REST-based services with clear separation of responsibilities
-- **Synchronous Communication**: Implemented and compared RestTemplate, WebClient, and OpenFeign
+- **Synchronous Communication Strategies**: Implemented and compared RestTemplate, WebClient, and OpenFeign
+- **Strategy Pattern for Communication Layer**: Designed a pluggable AddressServiceClient abstraction with multiple runtime implementations
+- **Profile-Based Runtime Switching**: Used Spring Profiles (rest-template, open-feign, rest-template-discovery-client) to dynamically select communication strategy
 - **Service Discovery & Registration**: Eureka Server & dynamic client registration
 - **Client-Side Load Balancing**: Spring Cloud LoadBalancer with multiple Address Service instances
+- **DiscoveryClient Metadata Usage**: Resolved service context path dynamically from Eureka metadata
 - **Centralized Configuration**: Spring Cloud Config Server with Git-based externalized configuration
+- **Configuration Lifecycle & Refresh Scope**: Explored config loading order, runtime refresh behavior, and bean recreation
 - **Multi-Database Architecture**: MySQL (Employee Service) & PostgreSQL (Address Service) integration
-- **Configuration Lifecycle Understanding**: Explored config loading order, refresh behavior, and service bootstrap process
 
 ### 🔄 **Currently Implementing**
 - API Gateway patterns with Spring Cloud Gateway
