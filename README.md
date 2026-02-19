@@ -27,7 +27,7 @@ This project demonstrates real-world microservices patterns through practical, h
 2. ✅ Synchronous Communication (Rest Clients like Rest Template, Web Client, Open Feign)
 3. ✅ Service Discovery & Registeration (Eureka)
 4. ✅ Load Balancing (Spring Cloud Load Balancer)
-5. 🔄 Centralized Configuration (Config Server)
+5. ✅ Centralized Configuration (Config Server)
 6. 🔄 API Gateway & Rate Limiting
 7. 📋 Fault Tolerance using Resilience4j (Retry, Circuit Breaker, Rate Limiter & Timeout, Fallback, Bulkhead)
 8. 📋 Distributed Tracing & Monitoring (Spring Cloud Sleuth, Zipkin)
