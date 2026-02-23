@@ -39,7 +39,7 @@ This project demonstrates real-world microservices patterns through practical, h
 8. 📋 Distributed Tracing & Monitoring (Spring Cloud Sleuth, Zipkin)
 9. 📋 Centralized Logging
 10. 📋 Security Between Services (OAuth2, JWT, Keycloak)
-11. 📋 Asynchronous Communication (RabbitMQ, Kafka)
+11. 📋 Asynchronous Communication (RabbitMQ ✅, Kafka)
 12. 📋 Saga Pattern
 13. 📋 Containerization (Docker)
 14. 📋 Orchestration (Kubernetes)
