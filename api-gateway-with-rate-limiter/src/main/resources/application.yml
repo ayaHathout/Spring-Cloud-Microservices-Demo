@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    gateway:
+      server:
+        webmvc:
+          routes:
+            - id:
+                employee-route
+              uri:
+                lb://employee-service
+              predicates:
+                - Path=/employees/**
+            - id:
+                address-route
+              uri:
+                lb://address-service
+              predicates:
+                - Path=/addresses/**
