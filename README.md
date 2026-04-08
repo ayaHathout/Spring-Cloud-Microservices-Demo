@@ -37,7 +37,7 @@ This project demonstrates real-world microservices patterns through practical, h
 6. ✅ API Gateway & Rate Limiting
 7. 🔄 Fault Tolerance using Resilience4j (Retry ✅, Circuit Breaker ✅, Rate Limiter, Time Limiter, Cache, Bulkhead)
 8. 📋 Distributed Tracing & Monitoring (Micrometer Tracing + Zipkin)
-9. 📋 Centralized Logging
+9. ✅ Centralized Logging
 10. 📋 Security Between Services (OAuth2, JWT, Keycloak)
 11. 📋 Asynchronous Communication (RabbitMQ ✅, Kafka)
 12. 📋 Saga Pattern
